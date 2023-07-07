@@ -1,0 +1,17 @@
+
+{
+  "ts-node": { "esm": true, "experimentalSpecifierResolution": "node" },
+  "compilerOptions": {
+    "target": "es6",
+    "rootDir": "./",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "strict": true,
+    "sourceMap": true,
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "module": "ESNext",
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
